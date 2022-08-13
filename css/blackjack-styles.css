@@ -1,0 +1,70 @@
+body {
+  background-color: #100F0F;
+  margin: 0;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #11999E;
+}
+
+a:hover {
+  color: #66BFBF;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #66BFBF;
+}
+
+.title {
+  color: #11999E;
+  padding-top: 50px;
+}
+
+.bj-title {
+  font-size: 3.125rem;
+}
+
+.blackjack-code1 {
+  left: 0;
+}
+
+.nav-container {
+  background-color: white;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  position: fixed;
+}
+
+.home {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.projects {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cv {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}

@@ -1,0 +1,81 @@
+body {
+  background-color: #100F0F;
+  margin: 0;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66BFBF;
+}
+
+h2 {
+  color: #11999E;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+p {
+  color: #66BFBF;
+  font-size: 1.25rem;
+  font-family: 'Merriweather', serif;
+}
+
+.title {
+  color: #11999E;
+  padding-top: 50px;
+}
+
+.stocknews-title {
+  font-size: 3.125rem;
+}
+
+.nav-container {
+  background-color: white;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  position: fixed;
+}
+
+.home {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.projects {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cv {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}

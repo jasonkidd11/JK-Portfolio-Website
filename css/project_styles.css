@@ -1,0 +1,674 @@
+body {
+  background-color: #100F0F;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding-bottom: 1000px;
+  position: relative;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66BFBF;
+}
+
+h2 {
+  color: #11999E;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+p {
+  color: #66BFBF;
+  font-size: 1.25rem;
+  font-family: 'Merriweather', serif;
+}
+
+.nav-container {
+  background-color: white;
+  padding: 20px;
+  position: fixed;
+  text-align: left;
+  width: 100%;
+  z-index: 1;
+}
+
+.first-hr {
+  border-style: none none dotted none;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  width: 24%;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.home {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cv {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.my-projects {
+  color: #66BFBF;
+  padding: 50px 0 0 300px;
+}
+
+.blackjack {
+  left: 280px;
+  position: absolute;
+}
+
+.blackjack-game {
+  position: absolute;
+  line-height: .5;
+  font-size: 1.25rem;
+  margin-left: 910px;
+  margin-top: -275px;
+}
+
+.bj-capstone {
+  text-align: right;
+  font-size: 0.9375rem;
+}
+
+.blackjack-img1 {
+  width: 50%;
+}
+
+.blackjack-img1:hover {
+  opacity: .7;
+}
+
+.blackjack-project-description {
+  background-color: #CEE5D0;
+  position: absolute;
+  padding: 10px;
+  right: 300px;
+  text-align: center;
+  top: 200px;
+}
+
+.snake-img {
+  position: absolute;
+  width: 40%;
+  margin-top: 450px;
+  margin-left: 600px;
+
+}
+
+.snake-img:hover {
+  opacity: .7;
+}
+
+.snake-game {
+  line-height: .5;
+  position: absolute;
+  margin-top: 525px;
+  margin-left: 0;
+}
+
+.snake-project-description {
+  background-color: #CEE5D0;
+  margin-top: 600px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 35%;
+}
+
+.snake-capstone-txt {
+  font-size: 0.9375rem;
+}
+
+.pong-img {
+  position: absolute;
+  width: 35%;
+  margin-top: 900px;
+  margin-left: -20px;
+}
+
+.pong-img:hover {
+  opacity: .7;
+}
+
+.pong-project-description {
+  background-color: #CEE5D0;
+  margin-top: 1000px;
+  margin-left: 670px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 20%;
+}
+
+.pong-capstone-txt {
+  font-size: 0.9375rem;
+}
+
+.pong-game {
+  line-height: .5;
+  margin-top: 915px;
+  margin-left: 970px;
+  position: absolute;
+  text-align: right;
+}
+
+.tcrossing-img {
+  position: absolute;
+  width: 35%;
+  margin-top: 1300px;
+  margin-left: 600px;
+}
+
+.tcrossing-img:hover {
+  opacity: .7;
+}
+
+.tcrossing-project-description {
+  background-color: #CEE5D0;
+  margin-top: 1500px;
+  margin-left: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 20%;
+}
+
+.tcrossing-capstone-txt {
+  font-size: 0.9375rem;
+}
+
+.tcrossing-game {
+  line-height: .5;
+  margin-top: 1415px;
+  margin-left: 300px;
+  position: absolute;
+  text-align: left;
+}
+
+.small-projects {
+  margin-top: 1800px;
+  margin-left: 300px;
+}
+
+.second-hr {
+  border-style: none none dotted none;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  width: 27%;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.rock-paper-scissors {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.rps-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.workout-tracker {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.workout-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.workout-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.caesar-cipher {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 600px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.caesar-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.higherlower {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 900px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.higherlower-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.guessthenumber {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 1200px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.guessthenumber-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.blindauction {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-top: 150px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.blindauction-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.hangman {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 300px;
+  margin-top: 150px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.hangman-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.coffeemachine {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 600px;
+  margin-top: 150px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.coffeemachine-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.birthdaywisher {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 900px;
+  margin-top: 150px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.birthdaywisher-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.birthday-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.spirograph {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 1200px;
+  margin-top: 150px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.spirograph-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.sketch {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 0;
+  margin-top: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.sketch-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.m-to-km {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 300px;
+  margin-top: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.m-to-km-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.rainalert {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 600px;
+  margin-top: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.rainalert-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.rainalert-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.flashcard {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 900px;
+  margin-top: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.flashcard-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.flashcard-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.hirstpainting {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 1200px;
+  margin-top: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.hirstpainting-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.iss {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 1200px;
+  margin-top: 300px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.iss-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.iss-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+
+
+
+.kanye {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 0;
+  margin-top: 450px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.kanye-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.kanye-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.passwordmanager {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 300px;
+  margin-top: 450px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.passwordmanager-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.passwordmanager-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.flightclub {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 600px;
+  margin-top: 450px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.flightclub-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.flightclub-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.pomodoro {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 900px;
+  margin-top: 450px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.pomodoro-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.pomodoro-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.stocknews {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 1200px;
+  margin-top: 450px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.stocknews-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.stocknews-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.states {
+  background-color: #CEE5D0;
+  font-weight: bold;
+  height: 110px;
+  margin-left: 0;
+  margin-top: 600px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 260px;
+}
+
+.states-description {
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+
+.states-method {
+  color: #607EAA;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  margin-left: 0;
+}
